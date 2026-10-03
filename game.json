@@ -1,0 +1,38 @@
+{
+
+
+
+"1": {
+  "Title": "Greetings laD",
+  "Description": "Description of what to do for this part of the game",
+  "choices": {
+    "choice1": "Hello it is I the first choice, I am the first choice",
+    "choice2": "I am a choice, the 2nd choice",
+    "choice3": "I am the third choice very choicey",
+    "choice4": "I am the 4th choice very choice",
+    "choice5": "It is I number 5 the best 5"
+  },
+  "choicelinks": {
+    "choice1": "index1.html",
+    "choice2": "index2.html",
+    "choice3": "index3.html",
+    "choice4": "index4.html",
+    "choice5": "index5.html"
+  }
+},
+
+
+"2": {
+  "Title": "What do?",
+  "Description": "do you do?",
+  "choices": {
+    "choice1": "yeahhh why not",
+    "choice2": "hrmmm mehhhhhhhhhh"
+  },
+  "choicelinks": {
+    "choice1": "/images/cheese-dance.gif",
+    "choice2": "/images/middle-finger-cat.png"
+  }
+}
+
+}

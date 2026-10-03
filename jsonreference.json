@@ -1,0 +1,26 @@
+{
+  "id": 1024,
+  "name": "Jane Doe",
+  "email": "janedoe@example.com",
+  "is_active": true,
+  "account_balance": 250.75,
+  "skills": [
+    "JavaScript",
+    "Python",
+    "SQL"
+  ],
+  "address": {
+    "street": "123 Main Street",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701"
+  },
+  "preferences": {
+    "theme": "dark",
+    "notifications": {
+      "email": true,
+      "sms": false
+    }
+  },
+  "referred_by": null
+}
