@@ -29,12 +29,15 @@ console.log(zenumber)
     console.log('prolly first index or some other weird stuffs')
 }
 
+console.log(isFilenameEmpty(""));          // true
+console.log(isFilenameEmpty(null));        // true
+console.log(isFilenameEmpty("photo.png")); // false
 
 console.log(filename)
 const mastergotmewooorking = document.createElement('ul');
 mastergotmewooorking.id = "somedaymastersetmefree"
 
-if (filename == "index.html") {
+if (filename == "index.html"|| "") {
 document.getElementById('explainerer').textContent = gamedata['1']['Description']
 document.getElementById('title').textContent = gamedata['1']['Title']
 choices = gamedata['1'].choices
@@ -56,7 +59,7 @@ mastergotmewooorking.appendChild(themaster);
 }
 }
 else {
-
+console.log('aasdasdd2')
 const numbering = filename.match(/\d+/)
 const zenumber = numbering[0]
 console.log(zenumber)
@@ -93,5 +96,7 @@ function funnyfunc() {
   console.log('its funny time');
   
 }
+
+dsd
 
 loadgamedata()
