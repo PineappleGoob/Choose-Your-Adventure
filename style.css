@@ -42,7 +42,7 @@ h1 {
     text-shadow: 0 0 10px rgba(0,0,0,0.2), 2px 2px 4px rgba(0,0,0,0.4);
     text-align: center;
     margin-bottom: 1rem;
-    letter-spacing: 2px;
+    letter spacing: 2px;
 }
 h3 {
     font-family: tomata, sans-serif;
@@ -53,14 +53,42 @@ h3 {
     color: #2c2c2c;
     text-align: center;
 }
-li {
-    font-family: analogmono;
+ul, ol {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    width: 100%;
+} 
+li { 
+    font-family: analogmono, monospace; 
     font-weight: bold;
     font-size: 2rem;
-
-}
+    text-align: center;
+  
+} 
 a {
-    text-decoration: none;
+    display: block;
+    padding: 12px 24px;
     color: black;
     text-decoration: underline;
+    background: rgba (255, 255, 255, 0.7);
+    border: 2px solid #222;
+    border-radius: 6px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 3px 3px 0px #111;
 }
+a: hover {
+    background: #111;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 0px rgba (0,0,0,0.3);
+    cursor: pointer;
+}
+a:active {
+    transform: translateY(1px);
+    box-shadow: 2px 2px 0px #111;
+}
+
