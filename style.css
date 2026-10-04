@@ -1,8 +1,8 @@
-body {
+ body{
     background-image: url(images/bg.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -39,14 +39,14 @@ h1 {
     font-family: poland, serif; 
     font-size: clamp(2.5rem, 5vw, 4rem);
     color: #111;
-    text-shadow: 3px 3px 0px rgba(0,0,0,0.15)
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.15);
     text-align: center;
     margin-bottom: 1.5rem;
     letter-spacing: 2px;
 }
 h3 {
     font-family: tomata, sans-serif;
-    font-size: clamp (1.2rem, 2.5vw, 2rem); 
+    font-size: clamp(1.2rem, 2.5vw, 2rem); 
     font-weight: bold;
     max-width: 750px;
     line-height: 1.6;
@@ -74,31 +74,31 @@ a {
     padding: 12px 24px;
     color: black;
     text-decoration: none;
-    background: rgba (255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     border: 2px solid #222;
     border-radius: 6px;
     transition: all 0.25s ease-in-out;
     box-shadow: 3px 3px 0px #111;
 }
-a: hover {
+a:hover {
     background: #111;
     color: #fff;
     transform: translateY(-2px);
-    box-shadow: 5px 5px 0px rgba (0,0,0,0.3);
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.3);
     cursor: pointer;
 }
 a:active {
-    transform: translateY(1px);2px
+    transform: translateY(1px);
     box-shadow: 2px 2px 0px #111;
 }
 .hiddenchoice:hover {
     opacity: 1;
     background: rgba(139,0,0,0.2);
 } 
-@ keyframes inkPulse {
-    0% { opacity: 0.8; text-shadow: 0 0 2px rgba(0,0,0,0.2);
+@keyframes inkPulse {
+    0% { opacity: 0.8; text-shadow: 0 0 2px rgba(0,0,0,0.2);}
     50% { opacity: 1; text-shadow: 0 0 8px rgba(180, 0, 0, 0.6);}
-    100% { opacity: 0.8; text-shadow: 0 0 2px rgba (0,0,0,0.2);
+    100% { opacity: 0.8; text-shadow: 0 0 2px rgba (0,0,0,0.2);}
 }
 .pulsing-text {
         animation: inkPulse 3s infinite ease-in-out;
@@ -124,6 +124,7 @@ transform: translateY (-3px) rotate(-0.5deg);
 a:active { 
 transform: translateY(1px) rotate(0deg);
     box-shadow: 2px 2px 0px #222;
+}
 .fade-in {
     animation: fadeIn 0.6s ease-in-out;
 } 
