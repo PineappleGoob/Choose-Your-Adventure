@@ -23,7 +23,7 @@ async function loadgamedata() {
 const getgamedata = await fetch("game.json");
 const gamedata = await getgamedata.json();
 
-const filename = window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1)
+const filename = window.location.hash.replace('#','')
 console.log(`filename ${filename}`)
 try {
 const numbering = filename.match(/\d+/)
@@ -41,7 +41,7 @@ console.log(filename)
 const mastergotmewooorking = document.createElement('ul');
 mastergotmewooorking.id = "somedaymastersetmefree"
 
-if (filename == "index.html"|| isFilenameEmpty(window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1))) {
+if (filename == "1"|| filename == "") {
 document.getElementById('explainerer').textContent = gamedata['1']['Description']
 document.getElementById('title').textContent = gamedata['1']['Title']
 choices = gamedata['1'].choices
@@ -52,11 +52,11 @@ const themaster = document.createElement('a');
 dayisneverfinished.textContent = `${gamedata['1']['choices'][`choice${i+1}`]}`
 console.log(dayisneverfinished.textContent)
 if (gamedata['1']['choicelinks'][`choice${i+1}`] == 1) {
-themaster.href = "index.html"
+themaster.href = "#1"
 console.log(themaster.href)
 }
 else {
-themaster.href = `index${gamedata['1']['choicelinks'][`choice${i+1}`]}.html`
+themaster.href = `#${gamedata['1']['choicelinks'][`choice${i+1}`]}`
 console.log(themaster.href)
 }
 
@@ -79,9 +79,9 @@ const themaster = document.createElement('a');
 dayisneverfinished.textContent = `${gamedata[`${zenumber}`]['choices'][`choice${i+1}`]}`
 console.log(dayisneverfinished.textContent)
 if (gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`] == 1) {
-  themaster.href = `index.html`
+  themaster.href = `#1`
 } else {
-themaster.href = `/index${gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`]}.html`
+themaster.href = `#${gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`]}`
 }
 themaster.appendChild(dayisneverfinished)
 mastergotmewooorking.appendChild(themaster);
@@ -93,7 +93,7 @@ mastergotmewooorking.appendChild(themaster);
 
 
 document.getElementById('choicebox').appendChild(mastergotmewooorking)
-
+window.addEventListener('hashchange', () => location.reload());
 
 };
 
