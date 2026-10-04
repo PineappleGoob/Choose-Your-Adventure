@@ -14,6 +14,10 @@ function len(obj) {
   return 0;
 }
 
+function isFilenameEmpty(filename) {
+  return !filename || filename.length === 0;
+}
+
 async function loadgamedata() {
     
 const getgamedata = await fetch("game.json");
@@ -29,7 +33,7 @@ console.log(zenumber)
     console.log('prolly first index or some other weird stuffs')
 }
 
-console.log(isFilenameEmpty(""));          // true
+console.log(isFilenameEmpty(window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1)));          // true
 console.log(isFilenameEmpty(null));        // true
 console.log(isFilenameEmpty("photo.png")); // false
 
@@ -37,7 +41,7 @@ console.log(filename)
 const mastergotmewooorking = document.createElement('ul');
 mastergotmewooorking.id = "somedaymastersetmefree"
 
-if (filename == "index.html"|| "") {
+if (filename == "index.html"|| isFilenameEmpty(window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1))) {
 document.getElementById('explainerer').textContent = gamedata['1']['Description']
 document.getElementById('title').textContent = gamedata['1']['Title']
 choices = gamedata['1'].choices
@@ -97,6 +101,5 @@ function funnyfunc() {
   
 }
 
-dsd
 
 loadgamedata()
