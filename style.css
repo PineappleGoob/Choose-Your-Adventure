@@ -91,4 +91,16 @@ a:active {
     transform: translateY(1px);
     box-shadow: 2px 2px 0px #111;
 }
-
+.hiddenchoice:hover {
+    opacity: 1;
+    background: rgba(139,0,0,0.2);
+} 
+@ keyframes inkPulse {
+    0% { opacity: 0.8; text-shadow: 0 0 2px rgba(0,0,0,0.2);
+    50% { opacity: 1; text-shadow: 0 0 8px rgba(180, 0, 0, 0.6);}
+    100% { opacity: 0.8; text-shadow: 0 0 2px rgba (0,0,0,0.2);
+}
+.pulsing-text {
+        animation: inkPulse 3s infinite ease-in-out;
+    } 
+    
