@@ -20,6 +20,7 @@ const getgamedata = await fetch("game.json");
 const gamedata = await getgamedata.json();
 
 const filename = window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1)
+console.log(`filename ${filename}`)
 try {
 const numbering = filename.match(/\d+/)
 const zenumber = numbering[0]
@@ -69,7 +70,6 @@ const themaster = document.createElement('a');
 dayisneverfinished.textContent = `${gamedata[`${zenumber}`]['choices'][`choice${i+1}`]}`
 console.log(dayisneverfinished.textContent)
 if (gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`] == 1) {
-  console.log('tes')
   themaster.href = `index.html`
 } else {
 themaster.href = `${gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`]}`
@@ -87,5 +87,11 @@ document.getElementById('choicebox').appendChild(mastergotmewooorking)
 
 
 };
+
+function funnyfunc() {
+
+  console.log('its funny time');
+  
+}
 
 loadgamedata()
