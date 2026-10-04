@@ -1,7 +1,5 @@
  body{
-    background-image: 
-     radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.4) 100%),
-     url(images/bg.png);
+    background-image: url(images/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,18 +13,6 @@
     padding: 2rem;
     box-sizing: border-box;
 }
-.notebook-page {
- background: rgba(253, 251, 247, 0.88);
- border-left: 4px solid #cc4444; 
- padding: 2.5rem 3rem;
- border-radius: 6px;
- box-shadow:
-  0 10px 30px rgba(0, 0, 0, 0.3),
-  inset 0 0 40px rgba(180, 160, 120, 0.2);
- max-width: 750px; 
- width: 90%;
- margin: 2rem auto;
- backdrop-filter: blur(2px);
 
 @font-face {
     font-family: tomata;
@@ -85,33 +71,24 @@ li {
 } 
 a {
     display: block;
-    padding: 16px 28px;
-    color: #1a1a1a;
+    padding: 12px 24px;
+    color: black;
     /*text-decoration: none;*/
-    background: rgba(255, 253, 248, 0.95);
+    background: rgba(255, 255, 255, 0.7);
     border: 2px solid #222;
-    border-radius: 2px 255px 3px 225px / 255px 3px 225px 2px;
-    box-shadow: 4px 4px 0px #111;
-    transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
-    position: relative; 
-    overflow: hidden;
-  
+    border-radius: 6px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 3px 3px 0px #111;
 }
-
-li:nth-child(even) a {
- transform: rotate(0.4deg)
-}
- 
- 
 a:hover {
     background: #111;
     color: #fff;
-    transform: translateY(-4px) scale(1.01) rotate(0deg) 
-    box-shadow: 7px 7px 0px rgba(0,0,0,0.35);
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.3);
     cursor: pointer;
 }
 a:active {
-    transform: translateY(1px) rotate(0deg);
+    transform: translateY(1px);
     box-shadow: 2px 2px 0px #111;
 }
 .hiddenchoice { 
@@ -146,3 +123,4 @@ a:active {
     }
 }
     
+
