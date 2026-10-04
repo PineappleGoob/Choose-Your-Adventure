@@ -1,5 +1,17 @@
 body {
     background-image: url(images/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -24,14 +36,22 @@ body {
 }
 
 h1 {
-    font-family: poland;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: angeltear, serif; 
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    color: #1a1a1a;
+    text-shadow: 0 0 10px rgba(0,0,0,0.2), 2px 2px 4px rgba(0,0,0,0.4);
+    text-align: center;
+    margin-bottom: 1rem;
+    letter spacing: 2px;
 }
 h3 {
-    font-family: tomata;
-    font-size: 2vw;
+    font-family: tomata, sans-serif;
+    font-size: clamp (1.2rem, 2.5vw, 2rem); 
     font-weight: bold;
-    max-width: 80vw;
+    max-width: 750px;
+    line-height: 1.6;
+    color: #2c2c2c;
+    text-align: center;
 }
 li {
     font-family: analogmono;
