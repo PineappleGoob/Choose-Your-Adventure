@@ -56,7 +56,7 @@ themaster.href = "index.html"
 console.log(themaster.href)
 }
 else {
-themaster.href = `index${gamedata['1']['choicelinks'][`choice${i+1}`]}.html`
+themaster.href = `doodads/index${gamedata['1']['choicelinks'][`choice${i+1}`]}.html`
 console.log(themaster.href)
 }
 
@@ -79,9 +79,13 @@ const themaster = document.createElement('a');
 dayisneverfinished.textContent = `${gamedata[`${zenumber}`]['choices'][`choice${i+1}`]}`
 console.log(dayisneverfinished.textContent)
 if (gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`] == 1) {
-  themaster.href = `index.html`
+  themaster.href = `/doosdads/index.html`
 } else {
-themaster.href = `/index${gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`]}.html`
+themaster.href = `/doodads/index${gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`]}.html`
+if (themaster.href = '/doodads/index.html')
+{
+  themaster.href = 'index.html'
+}
 }
 themaster.appendChild(dayisneverfinished)
 mastergotmewooorking.appendChild(themaster);

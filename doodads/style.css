@@ -1,0 +1,46 @@
+body {
+    background-image: url(images/bg.png);
+}
+
+@font-face {
+    font-family: tomata;
+    src: url(fonts/tomata.ttf);
+}
+@font-face {
+    font-family: aspire;
+    src: url(fonts/aspire.ttf);
+}
+@font-face {
+    font-family: poland;
+    src: url(fonts/poland.ttf);
+}
+@font-face {
+    font-family: angeltear;
+    src: url(fonts/angeltear.otf);
+}
+@font-face {
+    font-family: analogmono;
+    src: url(fonts/AnalogMono.ttf);
+}
+
+h1 {
+    font-family: poland;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h3 {
+    font-family: tomata;
+    font-size: 2vw;
+    font-weight: bold;
+    max-width: 80vw;
+}
+li {
+    font-family: analogmono;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}

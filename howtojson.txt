@@ -1,0 +1,11 @@
+This is meant to be a tutorial on how the system of configuration file works for this game
+
+Firstly:
+You will notice "1": with two brackets {} encompassing half the options such as choices
+and choicelinks. This represents the first website/encounter and all the options within
+this is for YOU (andyman). based on your writings I want you to replace choices with
+whatever you had written down. Additionally you are free to remove and add choices
+as you please as long as CHOICES and CHOICELINKS match amounts add up.
+
+
+
