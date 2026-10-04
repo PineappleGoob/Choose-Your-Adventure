@@ -13,11 +13,11 @@
     "choice5": "It is I number 5 the best 5"
   },
   "choicelinks": {
-    "choice1": "index1.html",
-    "choice2": "index2.html",
-    "choice3": "index3.html",
-    "choice4": "index4.html",
-    "choice5": "index5.html"
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "choice5": "5"
   }
 },
 
@@ -31,6 +31,19 @@
   },
   "choicelinks": {
     "choice1": "/images/cheese-dance.gif",
+    "choice2": "/images/middle-finger-cat.png"
+  }
+},
+
+"3": {
+  "Title": "What do?",
+  "Description": "do you do?",
+  "choices": {
+    "choice1": "yeahhh why not",
+    "choice2": "hrmmm mehhhhhhhhhh"
+  },
+  "choicelinks": {
+    "choice1": "1",
     "choice2": "/images/middle-finger-cat.png"
   }
 }

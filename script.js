@@ -43,7 +43,13 @@ const themaster = document.createElement('a');
 
 dayisneverfinished.textContent = `${gamedata['1']['choices'][`choice${i+1}`]}`
 console.log(dayisneverfinished.textContent)
-themaster.href = `${gamedata['1']['choicelinks'][`choice${i+1}`]}`
+if (gamedata['1']['choicelinks'][`choice${i+1}`] == 1) {
+themaster.href = "index.html"
+}
+else {
+themaster.href = "index"+`${gamedata['1']['choicelinks'][`choice${i+1}`]}`+".html"
+}
+
 themaster.appendChild(dayisneverfinished)
 mastergotmewooorking.appendChild(themaster);
 }
@@ -62,7 +68,12 @@ const themaster = document.createElement('a');
 
 dayisneverfinished.textContent = `${gamedata[`${zenumber}`]['choices'][`choice${i+1}`]}`
 console.log(dayisneverfinished.textContent)
+if (gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`] == 1) {
+  console.log('tes')
+  themaster.href = `index.html`
+} else {
 themaster.href = `${gamedata[`${zenumber}`]['choicelinks'][`choice${i+1}`]}`
+}
 themaster.appendChild(dayisneverfinished)
 mastergotmewooorking.appendChild(themaster);
 }
