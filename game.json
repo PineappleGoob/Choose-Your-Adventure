@@ -1,1038 +1,1431 @@
+
 {
-  "1": {
-    "Title": "Slide 1",
-    "Description": "You awaken in a desert, alone and unarmed. You could",
-    "choices": {
-      "choice1": "Walk in a straight line",
-      "choice2": "Look around",
-      "choice3": "Wait"
-    },
-    "choicelinks": {
-      "choice1": "2",
-      "choice2": "3",
-      "choice3": "83"
-    }
-  },
-  "2": {
-    "Title": "Slide 2",
-    "Description": "You reach a tower after a short walk. You walk closer to it",
-    "choices": {
-      "choice1": "Approach.",
-      "choice2": "Approach",
-      "choice3": "Why are you resisting?"
-    },
-    "choicelinks": {
-      "choice1": "9",
-      "choice2": "9",
-      "choice3": "9"
-    }
-  },
-  "3": {
-    "Title": "Slide 3",
-    "Description": "You look around, you spot something shiny in a low patch of sand, there is also a tall mount of sand.",
-    "choices": {
-      "choice1": "Go for the shiny!!!",
-      "choice2": "Walk onto the tall mount of sand."
-    },
-    "choicelinks": {
-      "choice1": "5",
-      "choice2": "4"
-    }
-  },
-  "4": {
-    "Title": "Slide 4",
-    "Description": "In attempts of climbing the mound, you have lost your footing and fallen. You are now on a low flatground of sand. Quicksand.",
-    "choices": {
-      "choice1": "You die."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "5": {
-    "Title": "Slide 5",
-    "Description": "You hunt for the shiny, it’s a key of sorts. You are unsure what it’s to though. You also find that, while trying to find out what this is, you feel as though the sand is pulling you in, the ground seemingly swimming upward.",
-    "choices": {
-      "choice1": "As fast as you can climb out",
-      "choice2": "Calmly accept your fate",
-      "choice3": "Swim down deeper into the quicksand"
-    },
-    "choicelinks": {
-      "choice1": "80",
-      "choice2": "6",
-      "choice3": "79"
-    }
-  },
-  "6": {
-    "Title": "Slide 6",
-    "Description": "Wait a second, you’re just a little dizzy, it wasn’t quicksand after all. You feel stupid, but hey, at least you have this key.",
-    "choices": {
-      "choice1": "Stab yourself with the key",
-      "choice2": "Walk around",
-      "choice3": "Search"
-    },
-    "choicelinks": {
-      "choice1": "78",
-      "choice2": "8",
-      "choice3": "7"
-    }
-  },
-  "7": {
-    "Title": "Slide 7",
-    "Description": "What are you searching for? A way out? A will to go forth? You won’t find any here. You slowly suffocate with the fear of never making back to civilization.",
-    "choices": {
-      "choice1": "Man, that’s rough."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "8": {
-    "Title": "Slide 8",
-    "Description": "You walk quite the way, you soon look up and see a tower.",
-    "choices": {
-      "choice1": "Investigate the tower",
-      "choice2": "Ignore the tower"
-    },
-    "choicelinks": {
-      "choice1": "9",
-      "choice2": "77"
-    }
-  },
-  "9": {
-    "Title": "Slide 9",
-    "Description": "You walk into the tower, it’s rather spacious. There are levers, but it seems like there is no way up the tower, no staircase or hole in the ceiling even. There are a set of levers. Two are green, one is red, and one is yellow.",
-    "choices": {
-      "choice1": "Flick the red",
-      "choice2": "Flick the yellow",
-      "choice3": "Flick the greens"
-    },
-    "choicelinks": {
-      "choice1": "10",
-      "choice2": "11",
-      "choice3": "76"
-    }
-  },
-  "10": {
-    "Title": "Slide 10",
-    "Description": "It’s as if you just lit a match in a room filled with bombs, you explode into nothingness.",
-    "choices": {
-      "choice1": "That’s just rough."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "11": {
-    "Title": "Slide 11",
-    "Description": "You flick the yellow, it seems that it’s correct, a ladder falls from the ceiling, allowing you passage to the upper floors.",
-    "choices": {
-      "choice1": "Climb the ladder",
-      "choice2": "Play with the levers"
-    },
-    "choicelinks": {
-      "choice1": "12",
-      "choice2": "75"
-    }
-  },
-  "12": {
-    "Title": "Slide 12",
-    "Description": "You make it up the ladder, you find it’s a rather large room, there are tiles on the floor. There’s a sign on the left.",
-    "choices": {
-      "choice1": "Read the sign",
-      "choice2": "Walk across the tiles",
-      "choice3": "Try to jump over the tiles"
-    },
-    "choicelinks": {
-      "choice1": "13",
-      "choice2": "14",
-      "choice3": "74"
-    }
-  },
-  "13": {
-    "Title": "Slide 13",
-    "Description": "The sign reads as follows “Blue-Launches you into the air. Yellow- Electrifies you. Red-spikes. Green-safe. Purple-makes you smell like grapes. White- if you smell like grapes then you get eaten. Tan-Makes you fall.”",
-    "choices": {
-      "choice1": "Good to know"
-    },
-    "choicelinks": {
-      "choice1": "14"
-    }
-  },
-  "14": {
-    "Title": "Slide 14",
-    "Description": "You can walk on one of five tiles. A blue tile, a purple tile on the left, a green tile, a yellow tile, or a purple tile on the right.",
-    "choices": {
-      "choice1": "Blue",
-      "choice2": "Left purple",
-      "choice3": "Green",
-      "choice4": "Yellow",
-      "choice5": "Right purple"
-    },
-    "choicelinks": {
-      "choice1": "36",
-      "choice2": "21",
-      "choice3": "37",
-      "choice4": "20",
-      "choice5": "15"
-    }
-  },
-  "15": {
-    "Title": "Slide 15",
-    "Description": "You walk onto the right purple tile. You now smell of grapes.",
-    "choices": {
-      "choice1": "White",
-      "choice2": "Green"
-    },
-    "choicelinks": {
-      "choice1": "19",
-      "choice2": "16"
-    }
-  },
-  "16": {
-    "Title": "Slide 16",
-    "Description": "You are now on the green tile. You don’t feel that you should move forward.",
-    "choices": {
-      "choice1": "Blue",
-      "choice2": "Tan"
-    },
-    "choicelinks": {
-      "choice1": "18",
-      "choice2": "17"
-    }
-  },
-  "17": {
-    "Title": "Slide 17",
-    "Description": "You fall down into the other room.",
-    "choices": {
-      "choice1": "Ha."
-    },
-    "choicelinks": {
-      "choice1": "11"
-    }
-  },
-  "18": {
-    "Title": "Slide 18",
-    "Description": "The moment you touch the blue tile, you are launched into the air. You land head first into a white tile and are eaten alive.",
-    "choices": {
-      "choice1": "You are quite dead"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "19": {
-    "Title": "Slide 19",
-    "Description": "You walk onto the white tile. Last mistake. The tile eats you alive.",
-    "choices": {
-      "choice1": "Should’ve read the instructions."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "20": {
-    "Title": "Slide 20",
-    "Description": "You walk onto the yellow tile, you feel a slight shock. No, take that back. You are writhing in pain, one hundred thousand volt run through your body and you die.",
-    "choices": {
-      "choice1": "Wonder if you’re well cooked enough to eat"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "21": {
-    "Title": "Slide 21",
-    "Description": "You walk onto the left purple tile. It smells like grapes. It’s a rather nice smell.",
-    "choices": {
-      "choice1": "Green",
-      "choice2": "Tan",
-      "choice3": "Purple"
-    },
-    "choicelinks": {
-      "choice1": "33",
-      "choice2": "32",
-      "choice3": "22"
-    }
-  },
-  "22": {
-    "Title": "Slide 22",
-    "Description": "The purple tile smells aggressively like grapes. So aggressively in fact that you lose your balance. I’m kidding.",
-    "choices": {
-      "choice1": "White",
-      "choice2": "Green",
-      "choice3": "Blue"
-    },
-    "choicelinks": {
-      "choice1": "31",
-      "choice2": "24",
-      "choice3": "23"
-    }
-  },
-  "23": {
-    "Title": "Slide 23",
-    "Description": "You are launched 50 feet into the air as soon as you step onto the blue, or, you would’ve went 50 feet if there wasn’t a roof. You are flattened against the roof now. In case ya didn’t know, people can’t survive that type of force.",
-    "choices": {
-      "choice1": "You are one of those people, you are deader than dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "24": {
-    "Title": "Slide 24",
-    "Description": "It’s a nice green tile. You love it here.",
-    "choices": {
-      "choice1": "Green",
-      "choice2": "Yellow",
-      "choice3": "Blue"
-    },
-    "choicelinks": {
-      "choice1": "27",
-      "choice2": "26",
-      "choice3": "25"
-    }
-  },
-  "25": {
-    "Title": "Slide 25",
-    "Description": "You are launched violently into the air, the wind rushing against your face. It feels rather nice, at least before you slam into the roof and get absolutely flattened.",
-    "choices": {
-      "choice1": "You are dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "26": {
-    "Title": "Slide 26",
-    "Description": "This yellow tile, you dread it even before you touch it, but now you dread it a lot more, as you are now very very dead. As a hundred thousand volts runs throughout your entire body, you can only regret that you didn’t read that sign.",
-    "choices": {
-      "choice1": "You are dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "27": {
-    "Title": "Slide 27",
-    "Description": "You love green. Such a great color. You look forward and see no immediate green tiles. Your hopes and dreams crushed, you make your choice. Your, final, choice.",
-    "choices": {
-      "choice1": "Red",
-      "choice2": "White",
-      "choice3": "Tan"
-    },
-    "choicelinks": {
-      "choice1": "28",
-      "choice2": "29",
-      "choice3": "30"
-    }
-  },
-  "28": {
-    "Title": "Slide 28",
-    "Description": "You step on the red. You aren’t even trying, are ya? You are impaled all over your body, there is not a single spot on you that isn’t punctured.",
-    "choices": {
-      "choice1": "Should’ve, heh, RED"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "29": {
-    "Title": "Slide 29",
-    "Description": "After stepping on the white tile, you remember the smell of grapes. The lovely smell that the purple tiles gave to you. You are now eaten alive by the tile. Man, how unfortunate.",
-    "choices": {
-      "choice1": "Try again."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "30": {
-    "Title": "Slide 30",
-    "Description": "You try to step on the tan. You fall through, but instead of landing on the bottom floor, you just keep falling. There is no end.",
-    "choices": {
-      "choice1": "You fall for the rest of eternity."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "31": {
-    "Title": "Slide 31",
-    "Description": "Didn’t ya read? You are eaten alive the by white tile. What can I say.",
-    "choices": {
-      "choice1": "Heh. This is just whatcha get."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "32": {
-    "Title": "Slide 32",
-    "Description": "You would have walked onto the tan, if it didn’t disappear below your feet. You fall down to the first floor.",
-    "choices": {
-      "choice1": "Go back…"
-    },
-    "choicelinks": {
-      "choice1": "11"
-    }
-  },
-  "33": {
-    "Title": "Slide 33",
-    "Description": "You walk onto the green. It’s a nice peaceful tile. You look behind you, all the tiles behind you are now red. You can’t go back.",
-    "choices": {
-      "choice1": "Red",
-      "choice2": "White"
-    },
-    "choicelinks": {
-      "choice1": "35",
-      "choice2": "34"
-    }
-  },
-  "34": {
-    "Title": "Slide 34",
-    "Description": "You hesitantly walk onto the white tile. The tile opens up like a mouth and chomps you into a pulp.",
-    "choices": {
-      "choice1": "You are very dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "35": {
-    "Title": "Slide 35",
-    "Description": "You hesitantly walk onto the red. It isn’t long before you are a very appetizing kebab.",
-    "choices": {
-      "choice1": "You are dead"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "36": {
-    "Title": "Slide 36",
-    "Description": "You step on the blue, before you can tell, you fly into the air, landing on your back. The wind is taken out of you. You try to get up and you accidentally let your right hand onto a red tile. The entire floor engules you in spikes. You are very very dead.",
-    "choices": {
-      "choice1": "That’s rough."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "37": {
-    "Title": "Slide 37",
-    "Description": "You step onto the green tile, you can now step on one of three tiles",
-    "choices": {
-      "choice1": "Tan",
-      "choice2": "Purple",
-      "choice3": "White"
-    },
-    "choicelinks": {
-      "choice1": "47",
-      "choice2": "38",
-      "choice3": "48"
-    }
-  },
-  "38": {
-    "Title": "Slide 38",
-    "Description": "You step onto the purple, you now smell aggressively like grapes.",
-    "choices": {
-      "choice1": "White",
-      "choice2": "Green",
-      "choice3": "Blue"
-    },
-    "choicelinks": {
-      "choice1": "40",
-      "choice2": "41",
-      "choice3": "39"
-    }
-  },
-  "39": {
-    "Title": "Slide 39",
-    "Description": "You step on the blue tile, it springs up and lifts you with a force unmatched. You are flattened against the ceiling. Ironic huh,  you wanted to go up and ya did.",
-    "choices": {
-      "choice1": "Get back down now."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "40": {
-    "Title": "Slide 40",
-    "Description": "Really? Instantly after stepping on a purple you want to step on a white? Well, by all means. You go to step on the tile, but it opens from beneath your feet and swallows you, get this, HOLE.",
-    "choices": {
-      "choice1": "Heh."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "41": {
-    "Title": "Slide 41",
-    "Description": "You step onto the green tile. Wow, you can walk!",
-    "choices": {
-      "choice1": "Green",
-      "choice2": "Yellow",
-      "choice3": "Red"
-    },
-    "choicelinks": {
-      "choice1": "43",
-      "choice2": "42",
-      "choice3": "44"
-    }
-  },
-  "42": {
-    "Title": "Slide 42",
-    "Description": "You step onto the yellow tile. At first it feels kind of nice, then you realize that a hundred thousand volts are going through you, you convulse violently on the floor and eventually die.",
-    "choices": {
-      "choice1": "What can I say."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "43": {
-    "Title": "Slide 43",
-    "Description": "You step onto another green tile Man, this walking is incredible.",
-    "choices": {
-      "choice1": "Red",
-      "choice2": "White",
-      "choice3": "Tan"
-    },
-    "choicelinks": {
-      "choice1": "44",
-      "choice2": "45",
-      "choice3": "46"
-    }
-  },
-  "44": {
-    "Title": "Slide 44",
-    "Description": "You want to step on the red? That was by far the worst choice. As you commit to the red tile, spike protrude from the ground, this isn’t quite as good as acupuncture. Heh",
-    "choices": {
-      "choice1": "You are very dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "45": {
-    "Title": "Slide 45",
-    "Description": "You try to step on the white, but it opens up, like a mouth, and consumes you. You truly should’ve read the details.",
-    "choices": {
-      "choice1": "Get out of here."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "46": {
-    "Title": "Slide 46",
-    "Description": "You look down at the tan. You know this isn’t a good choice,  but it’s the best of the few. You jump fully onto the tile, falling through and landing on the first floor.",
-    "choices": {
-      "choice1": "heh"
-    },
-    "choicelinks": {
-      "choice1": "9"
-    }
-  },
-  "47": {
-    "Title": "Slide 47",
-    "Description": "You attempt to step on the tan tile, but instead of finding purchase, you fall.",
-    "choices": {
-      "choice1": "Go back to the first floor."
-    },
-    "choicelinks": {
-      "choice1": "9"
-    }
-  },
-  "48": {
-    "Title": "Slide 48",
-    "Description": "You step onto the white tile.",
-    "choices": {
-      "choice1": "Green",
-      "choice2": "Blue",
-      "choice3": "Tan"
-    },
-    "choicelinks": {
-      "choice1": "51",
-      "choice2": "50",
-      "choice3": "49"
-    }
-  },
-  "49": {
-    "Title": "Slide 49",
-    "Description": "You should’ve just read the instructions. You step onto the tan tile, but instead of finding a solid surface, you just fall through the floor.",
-    "choices": {
-      "choice1": "You are back on the first floor."
-    },
-    "choicelinks": {
-      "choice1": "9"
-    }
-  },
-  "50": {
-    "Title": "Slide 50",
-    "Description": "This blue tile looks a bit funny, but I suppose it doesn’t matter now, you march on to the blue tile. It seems to support you, that is until you finally commit to the step. You are launched upward at incredible speeds and you hit your head against the roof, breaking your neck and skull.",
-    "choices": {
-      "choice1": "Tough luck."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "51": {
-    "Title": "Slide 51",
-    "Description": "You are now on the green tile.",
-    "choices": {
-      "choice1": "Green",
-      "choice2": "Yellow",
-      "choice3": "Red"
-    },
-    "choicelinks": {
-      "choice1": "54",
-      "choice2": "53",
-      "choice3": "52"
-    }
-  },
-  "52": {
-    "Title": "Slide 52",
-    "Description": "Why would you pick such a hostile color? Oh, whatever. You step onto the red tile and suddenly spike emerge from the floor, stabbing all of you.",
-    "choices": {
-      "choice1": "You die."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "53": {
-    "Title": "Slide 53",
-    "Description": "You move to step on the yellow tile, but you feel that you shouldn’t as soon as you begin to commit. You are fried into a crisp by a hundred thousand volts.",
-    "choices": {
-      "choice1": "You had the choice right in front of you."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "54": {
-    "Title": "Slide 54",
-    "Description": "You are now on the green tile",
-    "choices": {
-      "choice1": "Red",
-      "choice2": "White",
-      "choice3": "Tan"
-    },
-    "choicelinks": {
-      "choice1": "56",
-      "choice2": "57",
-      "choice3": "55"
-    }
-  },
-  "55": {
-    "Title": "Slide 55",
-    "Description": "You feel as though someone is laughing at you. That would be me, and I have to see this too. You walk carelessly onto the tan tile, feeling like that’d be a good choice. You very quickly find out that you’ve been fooled as you step onto an open pit where the tan used to be.",
-    "choices": {
-      "choice1": "You got got."
-    },
-    "choicelinks": {
-      "choice1": "9"
-    }
-  },
-  "56": {
-    "Title": "Slide 56",
-    "Description": "How many red tiles have you stepped on at this point man? Just go back to the start. You’re gonna make me describe this again? Fine, you step on the red tile and instantly get punctured by hundreds of spikes from all directions, killing you instantly.",
-    "choices": {
-      "choice1": "Go back already."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "57": {
-    "Title": "Slide 57",
-    "Description": "You are now on the white tile",
-    "choices": {
-      "choice1": "Red",
-      "choice2": "Green",
-      "choice3": "Yellow"
-    },
-    "choicelinks": {
-      "choice1": "58",
-      "choice2": "60",
-      "choice3": "59"
-    }
-  },
-  "58": {
-    "Title": "Slide 58",
-    "Description": "You step forth, laying your foot upon the red tile. Collision results in instant spikes, poking from the walls in every direction.",
-    "choices": {
-      "choice1": "You are now a pincushion."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "59": {
-    "Title": "Slide 59",
-    "Description": "Before you even begin to move for the yellow tile, electricity consumes your body. Maybe it could sense that you wanted to go onto that tile.",
-    "choices": {
-      "choice1": "Who knows."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "60": {
-    "Title": "Slide 60",
-    "Description": "You have successfully passed the tiles, congrats, you may now move up the floors and climb to the top.",
-    "choices": {
-      "choice1": "Take a short rest",
-      "choice2": "Climb up the ladder"
-    },
-    "choicelinks": {
-      "choice1": "72",
-      "choice2": "61"
-    }
-  },
-  "61": {
-    "Title": "Slide 61",
-    "Description": "The ladder is metal, a little rusty but in good condition. You climb to the top and see a small shop, but more importantly a water fountain, you’ve been dying for something to drink, you can hardly wait to drink some water.",
-    "choices": {
-      "choice1": "Drink the water",
-      "choice2": "Talk to the guy"
-    },
-    "choicelinks": {
-      "choice1": "71",
-      "choice2": "62"
-    }
-  },
-  "62": {
-    "Title": "Slide 62",
-    "Description": "The man is big and bulky, he doesn’t look like someone you’d want to fight. He sizes you up, then finally says. “A new face, don’t see many of those these days. What do you want.”",
-    "choices": {
-      "choice1": "Ask him for water",
-      "choice2": "Ask about the next floor",
-      "choice3": "Ask about time travel"
-    },
-    "choicelinks": {
-      "choice1": "65",
-      "choice2": "64",
-      "choice3": "63"
-    }
-  },
-  "63": {
-    "Title": "Slide 63",
-    "Description": "The man looks at you. Really, looks at you. “You want to know a thing about time travel? I have the feeling you’d know better than me, this isn’t your first time here, is it. That kind of makes me wonder.” You can’t hear the rest of what he says, you zone out for a second.",
-    "choices": {
-      "choice1": "Zone back in."
-    },
-    "choicelinks": {
-      "choice1": "62"
-    }
-  },
-  "64": {
-    "Title": "Slide 64",
-    "Description": "“Go see for yourself.”",
-    "choices": {
-      "choice1": "Go on then, see for yourself."
-    },
-    "choicelinks": {
-      "choice1": "67"
-    }
-  },
-  "65": {
-    "Title": "Slide 65",
-    "Description": "Clearly unsurprised by the question, he pulls out a water bottle. “Ah, I’ve got you. Here, drink up, it’s BPA free.”.",
-    "choices": {
-      "choice1": "Drink the water"
-    },
-    "choicelinks": {
-      "choice1": "66"
-    }
-  },
-  "66": {
-    "Title": "Slide 66",
-    "Description": "The water is quite nice, it goes down easy and it tastes good.",
-    "choices": {
-      "choice1": "Go up another floor."
-    },
-    "choicelinks": {
-      "choice1": "67"
-    }
-  },
-  "67": {
-    "Title": "Slide 67",
-    "Description": "You climb up the next ladder, you are now on the fourth floor. You feel quite happy with that. You look around, seeing cold stone walls almost fully surrounding you. You feel like you’re missing something.",
-    "choices": {
-      "choice1": "Look around",
-      "choice2": "Go forward"
-    },
-    "choicelinks": {
-      "choice1": "70",
-      "choice2": "68"
-    }
-  },
-  "68": {
-    "Title": "Slide 68",
-    "Description": "You move forward. It’s a maze, you’re sure of it now. There is a four way here.",
-    "choices": {
-      "choice1": "Go left",
-      "choice2": "Go straight",
-      "choice3": "Go right"
-    },
-    "choicelinks": {
-      "choice1": "69",
-      "choice2": "",
-      "choice3": ""
-    }
-  },
-  "69": {
-    "Title": "Slide 69",
-    "Description": "You turn to the left, it’s a short walk before the next intersection. You reach it safely.",
-    "choices": {
-      "choice1": "Left",
-      "choice2": "Right"
-    },
-    "choicelinks": {
-      "choice1": "",
-      "choice2": ""
-    }
-  },
-  "70": {
-    "Title": "Slide 70",
-    "Description": "You search around, you see a keyhole not far from you. If you have a key, you may use it.",
-    "choices": {
-      "choice1": "Use the key if you have one and skip this floor",
-      "choice2": "Get back to it."
-    },
-    "choicelinks": {
-      "choice1": "",
-      "choice2": ""
-    }
-  },
-  "71": {
-    "Title": "Slide 71",
-    "Description": "You greadily gulp down the water just about as fast as you can, you feel it going down your throat, only after you’ve drank quite the large amount do you realize the taste. It’s bitter, maybe even a bit sour. But, to be fair, I wouldn’t expect fresh water in a desert either. Your insides twist and you feel nauseous.",
-    "choices": {
-      "choice1": "You then feel dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "72": {
-    "Title": "Slide 72",
-    "Description": "You decide to take a short rest. You rest for a good amount of time. Oh wait, now that’s funny. When you wake up you find that you have a bit of a sleepwalking problem. You are in the middle of the tiles, and you stumble onto a red tile, hundreds of different spikes invade your body, I’d rather not describe it any further, this is hard to watch.",
-    "choices": {
-      "choice1": "Please go back.",
-      "choice2": "Press"
-    },
-    "choicelinks": {
-      "choice1": "1",
-      "choice2": "73"
-    }
-  },
-  "73": {
-    "Title": "Slide 73",
-    "Description": "Fine. Your skin is barely coating your flesh, blood spews everywhere, your organs are all more concepts of organs now, the majority of your bones are broken and there is now vomit on the floor. Happy?",
-    "choices": {
-      "choice1": "Continue"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "74": {
-    "Title": "Slide 74",
-    "Description": "You find that you’d never make the olympics. You try to jump over the tiles and you fall over a red tile. Spike emerge and puncture your face.",
-    "choices": {
-      "choice1": "Youch."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "75": {
-    "Title": "Slide 75",
-    "Description": "You cl- wait what. Why would you want to play with the levers? What’s the point? Oh whatever. You flick the levers, after flicking the red your entire world is engulfed in flames, it was rigged to a bomb.",
-    "choices": {
-      "choice1": "You are dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "76": {
-    "Title": "Slide 76",
-    "Description": "You flip one green, then the ground beneath you falls. You are freeeee. Free falling. Then, a sudden end occurs when you are impaled by spikes at the bottom of the pit. You see now why traps in towers are so effective.",
-    "choices": {
-      "choice1": "You are dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "77": {
-    "Title": "Slide 77",
-    "Description": "You walk around the tower, kicking the base to disrespect it as you pass. After a couple steps you fall over, no wait, a big stone object hits you down. It’s the tower, the tower has fallen on top of you. That kick really did it in huh?",
-    "choices": {
-      "choice1": "You are quite dead"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "78": {
-    "Title": "Slide 78",
-    "Description": "It is notably, not the key to your heart.",
-    "choices": {
-      "choice1": "You die."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "79": {
-    "Title": "Slide 79",
-    "Description": "You decide to swim deeper into the sand. You quickly that there is no bottom. Ya die.",
-    "choices": {
-      "choice1": "ha"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "80": {
-    "Title": "Slide 80",
-    "Description": "You climb out, it’s not graceful, but you are out. It is only when your out that you realize that you dropped the key. This has totaled to be waste of time, congrats.",
-    "choices": {
-      "choice1": "Try to get the key back",
-      "choice2": "Be depressed.",
-      "choice3": "Walk."
-    },
-    "choicelinks": {
-      "choice1": "82",
-      "choice2": "81",
-      "choice3": "8"
-    }
-  },
-  "81": {
-    "Title": "Slide 81",
-    "Description": "Congrats.",
-    "choices": {
-      "choice1": "Continue"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "82": {
-    "Title": "Slide 82",
-    "Description": "In attempts to find the key, you find that quite a lot of time has gone by, sunburns paint your body, the pain is awful. You now see and have the key. It’s rather hot now. In fact, it feel so hot that it almost feels deformed.",
-    "choices": {
-      "choice1": "Walk around"
-    },
-    "choicelinks": {
-      "choice1": "8"
-    }
-  },
-  "83": {
-    "Title": "Slide 83",
-    "Description": "You sit there, your not even sure why anymore, but you sit nevertheless. Waiting. Waiting. Waiting still. It feels like it’s been days, the sun still boiling your blood. You now have a rather gnarly sunburn. Congrats.",
-    "choices": {
-      "choice1": "Decide to finally walk around",
-      "choice2": "Decide to wait longer."
-    },
-    "choicelinks": {
-      "choice1": "88",
-      "choice2": "84"
-    }
-  },
-  "84": {
-    "Title": "Slide 84",
-    "Description": "You, continue… To deprave yourself, even though the sun is quite literally cooking you. Hours more pass, the sun has fallen down, it is night. The cold is a terrible contrast, it is quite unpleasant. But at least your not being cooked alive anymore.",
-    "choices": {
-      "choice1": "Try to walk",
-      "choice2": "Continue to wait…"
-    },
-    "choicelinks": {
-      "choice1": "86",
-      "choice2": "85"
-    }
-  },
-  "85": {
-    "Title": "Slide 85",
-    "Description": "Why are you still waiting? What’s the point? Oh whatever, you wait more and the sun goes back up, back down, back up, and back down again. Three days you have waited. You don’t want to wait anymore.",
-    "choices": {
-      "choice1": "Try to walk",
-      "choice2": "wait"
-    },
-    "choicelinks": {
-      "choice1": "86",
-      "choice2": "87"
-    }
-  },
-  "86": {
-    "Title": "Slide 86",
-    "Description": "You try to stand up, but all you can do is sit, your legs have gone weak, your mind frail. You are doomed to die here, with no energy left you lie there and eventually the time comes and you die.",
-    "choices": {
-      "choice1": "Rest in peace"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "87": {
-    "Title": "Slide 87",
-    "Description": "It’s all sand. It’s always been sand. You’ve lost your mind, you haven’t slept in three days, you haven’t walked in three days, you haven’t been in three days. You die with the pain of a thousand sunburns and dehydration, malnutrition, and lack of sleep. If I didn’t know any better, I’d be thinking your a coder.",
-    "choices": {
-      "choice1": "You are very very dead."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "88": {
-    "Title": "Slide 88",
-    "Description": "You, finally, decide to start walking. It isn’t long before the sun, quite literally, cooks you alive. The pain you feel is unmatched. But, you can see, not far in the distance, an oasis, water. There’s water!",
-    "choices": {
-      "choice1": "Go for the water!",
-      "choice2": "March onward away from the water",
-      "choice3": "Succumb to your pain"
-    },
-    "choicelinks": {
-      "choice1": "91",
-      "choice2": "90",
-      "choice3": "89"
-    }
-  },
-  "89": {
-    "Title": "Slide 89",
-    "Description": "Wow, just accepting your fate, letting pain win? Disappointing. Get out of here, coward.",
-    "choices": {
-      "choice1": "Get."
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "90": {
-    "Title": "Slide 90",
-    "Description": "You die to dehydration after a short walk.",
-    "choices": {
-      "choice1": "ha"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
-  },
-  "91": {
-    "Title": "Slide 91",
-    "Description": "The water! So fine. But wait, it’s so dry. It’s almost like it’s just sand. It is just sand. It was a mirage. You succumb to your agony, and die. Perhaps waiting for hours on end was a bad idea.",
-    "choices": {
-      "choice1": "You are very dead"
-    },
-    "choicelinks": {
-      "choice1": "1"
-    }
+"1": {
+  "Title": "You awaken in a desert, alone and unarmed. You could ",
+  "Description": "Pick a choice, any choice.",
+  "choices": {
+    "choice1": "Walk in a straight line",
+    "choice2": "Look around",
+    "choice3": "Wait"
+  },
+  "choicelinks": {
+    "choice1": "2",
+    "choice2": "3",
+    "choice3": "98"
   }
+},
+
+"2": {
+  "Title": "You reach a tower after a short walk. You walk closer to it",
+  "Description": "Approach",
+  "choices": {
+    "choice1": "Approach",
+    "choice2": "Approach",
+    "choice3": "Why are you resisting"
+  },
+  "choicelinks": {
+    "choice1": "9",
+    "choice2": "9",
+    "choice3": "9"
+  }
+},
+
+"3": {
+  "Title": "You look around, you spot something shiny in a low patch of sand, there is also a tall mount of sand.",
+  "Description": "It's your choice.",
+  "choices": {
+    "choice1": "Go for the shiny!",
+    "choice2": "Walk onto the tall mount of sand"
+  },
+  "choicelinks": {
+    "choice1": "5",
+    "choice2": "4"
+  }
+},
+
+"4": {
+  "Title": "In attempts of climbing the mound, you have lost your footing and fallen. You are now on a low flatground of sand. Quicksand.",
+  "Description": "Man, that's gotta hurt.",
+  "choices": {
+    "choice1": "You die"
+  },
+  "choicelinks": {
+    "choice1": "1"
+   }
+},
+
+"5": {
+  "Title": "You hunt for the shiny, it’s a key of sorts. You are unsure what it’s to though. You also find that, while trying to find out what this is, you feel as though the sand is pulling you in, the ground seemingly swimming upward.",
+  "Description": "...",
+  "choices": {
+    "choice1": "As fast as you can climb out",
+    "choice2": "Calmly accept your fate",
+    "choice3": "Swim down deeper into the quicksand"
+  },
+  "choicelinks": {
+    "choice1": "95",
+    "choice2": "6",
+    "choice3": "94"
+   }
+},
+
+"6": {
+  "Title": "Wait a second, you’re just a little dizzy, it wasn’t quicksand after all. You feel stupid, but hey, at least you have this key.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Stab yourself with the key",
+    "choice2": "Walk around",
+    "choice3": "Search"
+  },
+  "choicelinks": {
+    "choice1": "93",
+    "choice2": "8",
+    "choice3": "7"
+  }
+},
+
+"7": {
+  "Title": "What are you searching for? A way out? A will to go forth? You won’t find any here. You slowly suffocate with the fear of never making back to civilization.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Man, that's rough"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"8": {
+  "Title": "You walk quite the way, you soon look up and see a tower.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Investigate the tower",
+    "choice2": "Ignore the tower"
+  },
+  "choicelinks": {
+    "choice1": "9",
+    "choice2": "92"
+  }
+},
+
+"9": {
+  "Title": "You walk into the tower, it’s rather spacious. There are levers, but it seems like there is no way up the tower, no staircase or hole in the ceiling even. There are a set of levers. Two are green, one is red, and one is yellow.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Flick the red",
+    "choice2": "Flick the yellow",
+    "choice3": "Flick the green"
+  },
+  "choicelinks": {
+    "choice1": "10",
+    "choice2": "11",
+    "choice3": "91"
+  }
+},
+
+"10": {
+  "Title": "It’s as if you just lit a match in a room filled with bombs, you explode into nothingness.",
+  "Description": "...",
+  "choices": {
+    "choice1": "That's just rough"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"11": {
+  "Title": "You flick the yellow, it seems that it’s correct, a ladder falls from the ceiling, allowing you passage to the upper floors. ",
+  "Description": "...",
+  "choices": {
+    "choice1": "Climb the ladder",
+    "choice2": "Play with the levers"
+  },
+  "choicelinks": {
+    "choice1": "12",
+    "choice2": "90"
+  }
+},
+
+"12": {
+  "Title": "You make it up the ladder, you find it’s a rather large room, there are tiles on the floor. There’s a sign on the left.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Read the sign",
+    "choice2": "Walk over the tiles",
+    "choice3": "Try to jump over the tiles"
+  },
+  "choicelinks": {
+    "choice1": "13",
+    "choice2": "14",
+    "choice3": "89"
+  }
+},
+
+"13": {
+  "Title": "The sign reads as follows. Blue-Launches you into the air. Yellow- Electrifies you. Red-spikes. Green-safe. Purple-makes you smell like grapes. White- if you smell like grapes then you get eaten. Tan-Makes you fall.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Good to know"
+  },
+  "choicelinks": {
+    "choice1": "14"
+  }
+},
+
+"14": {
+  "Title": "You can walk on one of five tiles. A blue tile, a purple tile on the left, a green tile, a yellow tile, or a purple tile on the right.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Blue",
+    "choice2": "Left Purple",
+    "choice3": "Green",
+    "choice4": "Yellow",
+    "choice5": "Right purple"
+  },
+  "choicelinks": {
+    "choice1": "36",
+    "choice2": "21",
+    "choice3": "37",
+    "choice4": "20",
+    "choice5": "15"
+  }
+},
+
+"15": {
+  "Title": "You walk onto the right purple tile. You now smell of grapes.",
+  "Description": "...",
+  "choices": {
+    "choice1": "White",
+    "choice2": "Green"
+  },
+  "choicelinks": {
+    "choice1": "19",
+    "choice2": "16"
+  }
+},
+
+"16": {
+  "Title": "You are now on the green tile. You don’t feel that you should move forward.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Blue",
+    "choice2": "Tan"
+  },
+  "choicelinks": {
+    "choice1": "18",
+    "choice2": "17"
+  }
+},
+
+"17": {
+  "Title": "You fall down into the other room.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Ha."
+  },
+  "choicelinks": {
+    "choice1": "11"
+  }
+},
+
+"18": {
+  "Title": "The moment you touch the blue tile, you are launched into the air. You land head first into a white tile and are eaten alive.",
+  "Description": "Oh boy, your in for it now.",
+  "choices": {
+    "choice1": "You are quite dead"
+  },
+"choicelinks": {
+  "choice1": "1"
+}
+},
+
+"19": {
+  "Title": "You walk onto the white tile. Last mistake. The tile eats you alive",
+  "Description": "...",
+  "choices": {
+    "choice1": "Should've read the instructions"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"20": {
+  "Title": "You walk onto the yellow tile, you feel a slight shock. No, take that back. You are writhing in pain, one hundred thousand volt run through your body and you die.",
+  "Description": "That's aughta hurt",
+  "choices": {
+    "choice1": "Wonder if you're cooked well enough to eat"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"21": {
+  "Title": "You walk onto the left purple tile. It smells like grapes. It’s a rather nice smell.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Green",
+    "choice2": "Tan",
+    "choice3": "Purple"
+  },
+  "choicelinks": {
+    "choice1": "33",
+    "choice2": "32",
+    "choice3": "22"
+  }
+},
+
+"22": {
+  "Title": "The purple tile smells aggressively like grapes. So aggressively in fact that you lose your balance. I’m kidding.",
+  "Description": "...",
+  "choices": {
+    "choice1": "White",
+    "choice2": "Green",
+    "choice3": "Blue"
+  },
+  "choicelinks": {
+    "choice1": "31",
+    "choice2": "24",
+    "choice3": "23"
+  }
+},
+
+"23": {
+  "Title": "You are launched 50 feet into the air as soon as you step onto the blue, or, you would’ve went 50 feet if there wasn’t a roof. You are flattened against the roof now. In case ya didn’t know, people can’t survive that type of force.",
+  "Description": "...",
+  "choices": {
+    "choice1": "You are one of those people, you are deader than dead."
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"24": {
+  "Title": "It’s a nice green tile. You love it here.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Green",
+    "choice2": "Yellow",
+    "choice3": "Blue"
+  },
+  "choicelinks": {
+    "choice1": "27",
+    "choice2": "26",
+    "choice3": "25"
+  }
+},
+
+"25": {
+  "Title": "You are launched violently into the air, the wind rushing against your face. It feels rather nice, at least before you slam into the roof and get absolutely flattened.",
+  "Description": "Youch",
+  "choices": {
+    "choice1": "You are dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"26": {
+  "Title": "This yellow tile, you dread it even before you touch it, but now you dread it a lot more, as you are now very very dead. As a hundred thousand volts runs throughout your entire body, you can only regret that you didn’t read that sign.",
+  "Description": "Man, that hurts.",
+  "choices": {
+    "choice1": "You are dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"27": {
+  "Title": "You love green. Such a great color. You look forward and see no immediate green tiles. Your hopes and dreams crushed, you make your choice. Your, final, choice.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Red",
+    "choice2": "White",
+    "choice3": "Tan"
+  },
+  "choicelinks": {
+    "choice1": "28",
+    "choice2": "29",
+    "choice3": "30"
+  }
+},
+
+"28": {
+  "Title": "You step on the red. You aren’t even trying, are ya? You are impaled all over your body, there is not a single spot on you that isn’t punctured.",
+  "Description": "Disappointing",
+  "choices": {
+    "choice1": "Should've, heh, RED"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"29": {
+  "Title": "After stepping on the white tile, you remember the smell of grapes. The lovely smell that the purple tiles gave to you. You are now eaten alive by the tile. Man, how unfortunate.",
+  "Description": "Man, you suck at living",
+  "choices": {
+    "choice1": "Try again"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"30": {
+  "Title": "You try to step on the tan. You fall through, but instead of landing on the bottom floor, you just keep falling. There is no end.",
+  "Description": "That's one large pit",
+  "choices": {
+    "choice1": "You fall for the rest of eternity"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"31": {
+  "Title": "Didn’t ya read? You are eaten alive the by white tile. What can I say.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Heh. This is just whatcha get"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"32": {
+  "Title": "You would have walked onto the tan, if it didn’t disappear below your feet. You fall down to the first floor.",
+  "Description": "Skill issue?",
+  "choices": {
+    "choice1": "Go back"
+  },
+  "choicelinks": {
+    "choice1": "11"
+  }
+},
+
+"33": {
+  "Title": "You walk onto the green. It’s a nice peaceful tile. You look behind you, all the tiles behind you are now red. You can’t go back",
+  "Description": "...",
+  "choices": {
+    "choice1": "Red",
+    "choice2": "White"
+  },
+  "choicelinks": {
+    "choice1": "34",
+    "choice2": "35"
+  }
+},
+
+"34": {
+  "Title": "You hesitantly walk onto the white tile. The tile opens up like a mouth and chomps you into a pulp",
+  "Description": "Yummy",
+  "choices": {
+    "choice1": "You are very dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"35": {
+  "Title": "You hesitantly walk onto the red. It isn’t long before you are not a very appetizing kebab.",
+  "Description": "That sounds like it hurt",
+  "choices": {
+    "choice1": "You are dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"36": {
+  "Title": "You step on the blue, before you can tell, you fly into the air, landing on your back. The wind is taken out of you. You try to get up and you accidentally let your right hand onto a red tile. The entire floor engules you in spikes. You are very very dead.",
+  "Description": "Man, that looked painful",
+  "choices": {
+    "choice1": "That's rough"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"37": {
+  "Title": "You step onto the green tile, you can now step on one of three tiles",
+  "Description": "...",
+  "choices": {
+    "choice1": "Tan",
+    "choice2": "Purple",
+    "choice3": "White"
+  },
+  "choicelinks": {
+    "choice1": "47",
+    "choice2": "38",
+    "choice3": "48"
+  }
+},
+
+"38": {
+  "Title": "You step onto the purple, you now smell aggressively like grapes.",
+  "Description": "I kinda like grapes",
+  "choices": {
+    "choice1": "White",
+    "choice2": "Green",
+    "choice3": "Blue"
+  },
+  "choicelinks": {
+    "choice1": "40",
+    "choice2": "41",
+    "choice3": "39"
+  }
+},
+
+"39": {
+  "Title": "You step on the blue tile, it springs up and lifts you with a force unmatched. You are flattened against the ceiling. Ironic huh,  you wanted to go up and ya did.",
+  "Description": "It's a bird, it's a plane. No wait, it's just you.",
+  "choices": {
+    "choice1": "Get back down now"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"40": {
+  "Title": "Really? Instantly after stepping on a purple you want to step on a white? Well, by all means. You go to step on the tile, but it opens from beneath your feet and swallows you, get this, HOLE.",
+  "Description": "Dummy.",
+  "choices": {
+    "choice1": "Heh"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"41": {
+  "Title": "You step onto the green tile. Wow, you can walk!",
+  "Description": "...",
+  "choices": {
+    "choice1": "Green",
+    "choice2": "Yellow",
+    "choice3": "Red"
+  },
+  "choicelinks": {
+    "choice1": "43",
+    "choice2": "42",
+    "choice3": "44"
+  }
+},
+
+"42": {
+  "Title": "You step onto the yellow tile. At first it feels kind of nice, then you realize that a hundred thousand volts are going through you, you convulse violently on the floor and eventually die.",
+  "Description": "Nice",
+  "choices": {
+    "choice1": "What can I say"
+  },
+  "choicelinks": "1"
+},
+
+"43": {
+  "Title": "You step onto another green tile. Man, this walking is incredible.",
+  "Description": "You are pretty far out huh, be a damn shame if something happened to ya",
+  "choices": {
+    "choice1": "Red",
+    "choice2": "White",
+    "choice3": "Tan"
+  },
+  "choicelinks": {
+    "choice1": "44",
+    "choice2": "45",
+    "choice3": "46"
+  }
+},
+
+"44": {
+  "Title": "You want to step on the red? That was by far the worst choice. As you commit to the red tile, spike protrude from the ground, this isn’t quite as good as acupuncture. Heh",
+  "Description": "At least it was free",
+  "choices": {
+    "choice1": "You are very dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"45": {
+  "Title": "You try to step on the white, but it opens up, like a mouth, and consumes you. You truly should’ve read the details.",
+  "Description": "I wonder if you tasted good",
+  "choices": {
+    "choice1": "Get out of here"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"46": {
+  "Title": "You look down at the tan. You know this isn’t a good choice,  but it’s the best of the few. You jump fully onto the tile, falling through and landing on the first floor.",
+  "Description": "Humpty dumpty when",
+  "choices": {
+    "choice1": "heh"
+  },
+  "choicelinks": {
+    "choice1": "9"
+  }
+},
+
+"47": {
+  "Title": "You attempt to step on the tan tile, but instead of finding purchase, you fall.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Go back to the first floor"
+  },
+  "choicelinks": {
+    "choice1": "9"
+  }
+},
+
+"48": {
+  "Title": "",
+  "Description": "",
+  "choices": {
+    "choice1": "Green",
+    "choice2": "Blue",
+    "choice3": "Tan"
+  },
+  "choicelinks": {
+    "choice1": "51",
+    "choice2": "50",
+    "choice3": "49"
+  }
+},
+
+"49": {
+  "Title": "You should’ve just read the instructions. You step onto the tan tile, but instead of finding a solid surface, you just fall through the floor.",
+  "Description": "That's funny",
+  "choices": {
+    "choice1": "You are back on the first floor"
+  },
+  "choicelinks": {
+    "choice1": "9"
+  }
+},
+
+"50": {
+  "Title": "This blue tile looks a bit funny, but I suppose it doesn’t matter now, you march on to the blue tile. It seems to support you, that is until you finally commit to the step. You are launched upward at incredible speeds and you hit your head against the roof, breaking your neck and skull.",
+  "Description": "Heads up",
+  "choices": {
+    "choice1": "Toug luck"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"51": {
+  "Title": "You are now on the green tile",
+  "Description": "We all love green",
+  "choices": {
+    "choice1": "Green",
+    "choice2": "Yellow",
+    "choice3": "Red"
+  },
+  "choicelinks": {
+    "choice1": "54",
+    "choice2": "53",
+    "choice3": "52"
+  }
+},
+
+"52": {
+  "Title": "Why would you pick such a hostile color? Oh, whatever. You step onto the red tile and suddenly spike emerge from the floor, stabbing all of you",
+  "Description": "...",
+  "choices": {
+    "choice1": "You die"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"53": {
+  "Title": "You move to step on the yellow tile, but you feel that you shouldn’t as soon as you begin to commit. You are fried into a crisp by a hundred thousand volts",
+  "Description": "Toasty",
+  "choices": {
+    "choice1": "You had the choice right in front of you"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"54": {
+  "Title": "You are now on the green tile",
+  "Description": "...",
+  "choices": {
+    "choice1": "Red",
+    "choice2": "White",
+    "choice3": "Tan"
+  },
+  "choicelinks": {
+    "choice1": "56",
+    "choice2": "57",
+    "choice3": "55"
+  }
+},
+
+"55": {
+  "Title": "You feel as though someone is laughing at you. That would be me, and I have to see this too. You walk carelessly onto the tan tile, feeling like that’d be a good choice. You very quickly find out that you’ve been fooled as you step onto an open pit where the tan used to be",
+  "Description": "heheh, heheheheheh. heh. ah.",
+  "choices": {
+    "choice1": "You got got"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"56": {
+  "Title": "How many red tiles have you stepped on at this point man? Just go back to the start. You’re gonna make me describe this again? Fine, you step on the red tile and instantly get punctured by hundreds of spikes from all directions, killing you instantly",
+  "Description": "...",
+  "choices": {
+    "choice1": "Go back already"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"57": {
+  "Title": "You are now on the white tile",
+  "Description": "...",
+  "choices": {
+    "choice1": "Red",
+    "choice2": "Green",
+    "choice3": "Yellow"
+  },
+  "choicelinks": {
+    "choice1": "58",
+    "choice2": "60",
+    "choice3": "59"
+  }
+},
+
+"58": {
+  "Title": "You step forth, laying your foot upon the red tile. Collision results in instant spikes, poking from the walls in every direction",
+  "Description": "...",
+  "choices": {
+    "choice1": "You are now a pincushion"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"59": {
+  "Title": "Before you even begin to move for the yellow tile, electricity consumes your body. Maybe it could sense that you wanted to go onto that tile",
+  "Description": "Shocking.",
+  "choices": {
+    "choice1": "Who knows"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"60": {
+  "Title": "You have successfully passed the tiles, congrats, you may now move up the floors and climb to the top",
+  "Description": "I applaud you",
+  "choices": {
+    "choice1": "Take a short rest",
+    "choice2": "Climb up the ladder"
+  },
+  "choice1": "87",
+  "choice2": "61"
+},
+
+"61": {
+  "Title": "The ladder is metal, a little rusty but in good condition. You climb to the top and see a small shop, but more importantly a water fountain, you’ve been dying for something to drink, you can hardly wait to drink some water",
+  "Description": "Drink it. The water calls to you",
+  "choices": {
+    "choice1": "Drink the water",
+    "choice2": "Talk to the guy"
+  },
+  "choicelinks": {
+    "choice1": "86",
+    "choice2": "62"
+  }
+},
+
+"62": {
+  "Title": "The man is big and bulky, he doesn’t look like someone you’d want to fight. He sizes you up, then finally says. 'A new face, don’t see many of those these days. What do you want.'",
+  "Description": "That's one good looking man",
+  "choices": {
+    "choice1": "Ask him for water",
+    "choice2": "Ask about the next floor",
+    "choice3": "Ask about time travel"
+  },
+  "choicelinks": {
+    "choice1": "65",
+    "choice2": "64",
+    "choice3": "63"
+  }
+},
+
+"63": {
+  "Title": "The man looks at you. Really, looks at you. 'You want to know a thing about time travel? I have the feeling you’d know better than me, this isn’t your first time here, is it. That kind of makes me wonder.' You can’t hear the rest of what he says, you zone out for a second",
+  "Description": "What was that?",
+  "choices": {
+    "choice1": "Zone back in"
+  },
+  "choicelinks": {
+    "choice1": "62"
+  }
+},
+
+"64": {
+  "Title": "'Go see for yourself.'",
+  "Description": "Get up there champ",
+  "choices": {
+    "choice1": "Go on then, see for yourself"
+  },
+  "choicelinks": {
+    "choice1": "67"
+  }
+},
+
+"65": {
+  "Title": "Clearly unsurprised by the question, he pulls out a water bottle. ‘Ah, I’ve got you. Here, drink up, it’s BPA free’. ",
+  "Description": "Glad it's BPA free",
+  "choices": {
+    "choice1": "Drink the water"
+  },
+  "choicelinks": {
+    "choice1": "66"
+  }
+},
+
+"66": {
+  "Title": "The water is quite nice, it goes down easy and it tastes good",
+  "Description": "No where to go but up",
+  "choices": {
+    "choice1": "Go up another floor"
+  },
+  "choicelinks": {
+    "choice1": "67"
+  }
+},
+
+"67": {
+  "Title": "You climb up the next ladder, you are now on the fourth floor. You feel quite happy with that. You look around, seeing cold stone walls almost fully surrounding you. You feel like you’re missing something",
+  "Description": "What could you be missing?",
+  "choices": {
+    "choice1": "Look around",
+    "choice2": "Go forward"
+  },
+  "choicelinks": {
+    "choice1": "85",
+    "choice2": "68"
+  }
+},
+
+"68": {
+  "Title": "You move forward. It’s a maze, you’re sure of it now. There is a four way here",
+  "Description": "A maze? I hate mazes",
+  "choices": {
+    "choice1": "Go left",
+    "choice2": "Go straight",
+    "choice3": "Go right"
+  },
+  "choicelinks": {
+    "choice1": "76",
+    "choice2": "72",
+    "choice3": "69"
+  }
+},
+
+"69": {
+  "Title": "You begin the walk right, you feel like your crawling, it’s one long way. You reach a corner curving right.",
+  "Description": "A long way huh",
+  "choices": {
+    "choice1": "Right",
+    "choice2": "back"
+  },
+  "choicelinks": {
+    "choice1": "70",
+    "choice2": "68"
+  }
+},
+
+"70": {
+  "Title": "Deciding it’s a good idea, you go further into the hall, reaching an intersection.",
+  "Description": "But is it a good idea?",
+  "choices": {
+    "choice1": "Staight",
+    "choice2": "Right"
+  },
+  "choicelinks": {
+    "choice1": "71",
+    "choice2": "68"
+  }
+},
+
+"71": {
+  "Title": "",
+  "Description": "",
+  "choices": {
+    "choice1": "Tough luck"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"72": {
+  "Title": "You mosey forward, you are cut short by a pit, it looks jumpable.",
+  "Description": "Ah, a pit. Wait, why can't we turn around!",
+  "choices": {
+    "choice1": "Jump over it",
+    "choice2": "Try to walk around it",
+    "choice3": "Step on the pit"
+  },
+  "choicelinks": {
+    "choice1": "75",
+    "choice2": "74",
+    "choice3": "73"
+  }
+},
+
+"73": {
+  "Title": "Really? Step on the pit is what you chose? You step on the pit, you aren’t surprised when you just fall. It’s empty space, a pit, a hole of doom, why’d you step on it",
+  "Description": "I'm very disappointed",
+  "choices": {
+    "choice1": "Idiot"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"74": {
+  "Title": "It’s a pit, how are you gonna walk around it! Oh, whatever. You try to walk ‘around’ the pit. You then actually walk into the pit. It is quite the fall",
+  "Description": "What? Did you think that'd work? Try harder.",
+  "choices": {
+    "choice1": "You have died"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"75": {
+  "Title": "You, again, are not an olympic athlete, you try to jump over the pit, and you get halfway before you go beneath the lip, you ram headfirst into the other rim. You fall quite the way before you get exploded against the floor below.",
+  "Description": "I don't think you'll make that jump",
+  "choices": {
+    "choice1": "Not to say I told ya so, but."
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"76": {
+  "Title": "You turn to the left, it’s a short walk before the next intersection. You reach it safely.",
+  "Description": "This maze is quite long huh.",
+  "choices": {
+    "choice1": "Left",
+    "choice2": "Right"
+  },
+  "choicelinks": {
+    "choice1": "77",
+    "choice2": "78"
+  }
+},
+
+"77": {
+  "Title": "You turn to the left, it’s a dead end. At least it isn’t a",
+  "Description": "That's a terrible joke, even by my standards",
+  "choices": {
+    "choice1": "DEAD, end"
+  },
+  "choicelinks": {
+    "choice1": "76"
+  }
+},
+
+"78": {
+  "Title": "You decide right is always right, and proceed down a short hall before you reach a corner.",
+  "Description": "...",
+  "choices": {
+    "choice1": "Proceed right",
+    "choice2": "Go back"
+  },
+  "choicelinks": {
+    "choice1": "79",
+    "choice2": "76"
+  }
+},
+
+"79": {
+  "Title": "You come to a crossroads once more.",
+  "Description": "A sure lot of these roads.",
+  "choices": {
+    "choice1": "Straight",
+    "choice2": "Right"
+  },
+  "choicelinks": {
+    "choice1": "80",
+    "choice2": "72"
+  }
+},
+
+"80": {
+  "Title": "You commit straight, it feels right. You walk down for a good amount of time, before you reach yet another crossroads.",
+  "Description": "Are we feeling straight?",
+  "choices": {
+    "choice1": "Straight",
+    "choice2": "Left"
+  },
+  "choicelinks": {
+    "choice1": "81",
+    "choice2": "82"
+  }
+},
+
+"81": {
+  "Title": "You are fully committed to going straight, you get to a corner and follow it. You like it here, it’s a little dark though. It’s also seemingly getting darker. You are soon engulfed in the blackness. You smell the faint smell of gasoline. It is barely a couple of seconds before the entire room is engulfed in flames, burning you alive.",
+  "Description": "That's just rough",
+  "choices": {
+    "choice1": "You are now not alive"
+  }, 
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"82": {
+  "Title": "Down the left path you trek, a long way before a corner. A long hallway is ahead of you.",
+  "Description": "What a long hall",
+  "choices": {
+    "choice1": "Turn back",
+    "choice2": "Go down the hall"
+  },
+  "choicelinks": {
+    "choice1": "80",
+    "choice2": "83"
+  }
+},
+
+"83": {
+  "Title": "You begin trekking down the hall, it’s really long, you are hardly even halfway down",
+  "Description": "We've been walking so far, we have to be close now",
+  "choices": {
+    "choice1": "Too far in now bud"
+  },
+  "choicelinks": {
+    "choice1": "84"
+  }
+},
+
+"84": {
+  "Title": "You continue your march, it’s seemingly endless.",
+  "Description": "I swear I see it!",
+  "choices": {
+    "choice1": "Keep going"
+  },
+  "choicelinks": {
+    "choice1": "107"
+  }
+},
+
+"85": {
+  "Title": "You search around, you see a keyhole not far from you. If you have a key, you may use it",
+  "Description": "Be honest here",
+  "choices": {
+    "choice1": "Use the key if you have one to skip this floor",
+    "choice2": "Get back to it"
+  },
+  "choicelinks": {
+    "choice1": "107",
+    "choice2": "67"
+  }
+},
+
+"86": {
+  "Title": "You greedily gulp down the water just about as fast as you can, you feel it going down your throat, only after you’ve drank quite the large amount do you realize the taste. It’s bitter, maybe even a bit sour. But, to be fair, I wouldn’t expect fresh water in a desert either. Your insides twist and you feel nauseous.",
+  "Description": "You should've look at it first.",
+  "choices": {
+    "choice1": "You then feel dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"87": {
+  "Title": "You decide to take a short rest. You rest for a good amount of time. Oh wait, now that’s funny. When you wake up you find that you have a bit of a sleepwalking problem. You are in the middle of the tiles, and you stumble onto a red tile, hundreds of different spikes invade your body, I’d rather not describe it any further, this is hard to watch.",
+  "Description": "Even I'm grossed out.",
+  "choices": {
+    "choice1": "Please go back",
+    "choice2": "Press"
+  },
+  "choicelinks": {
+    "choice1": "1",
+    "choice2": "88"
+  }
+},
+
+"88": {
+  "Title": "Fine. Your skin is barely coating your flesh, blood spews everywhere, your organs are all more concepts of organs now, the majority of your bones are broken and there is now vomit on the floor.",
+  "Description": "I'm disgusted",
+  "choices": {
+    "choice1": "Happy?"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"89": {
+  "Title": "You find that you’d never make the olympics. You try to jump over the tiles and you fall over a red tile. Spike emerge and puncture your face. ",
+  "Description": "That's gotta hurt",
+  "choices": {
+    "choice1": "Youch"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"90": {
+  "Title": "You climb- wait what. Why would you want to play with the levers? What’s the point? Oh whatever. You flick the levers, after flicking the red your entire world is engulfed in flames, it was rigged to a bomb.",
+  "Description": "Talk about an explosive consequence.",
+  "choices": {
+    "choice1": "You are dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"91": {
+  "Title": "You flip one green, then the ground beneath you falls. You are freeeee. Free falling. Then, a sudden end occurs when you are impaled by spikes at the bottom of the pit. You see now why traps in towers are so effective.",
+  "Description": "That man, mister narrator, he's getting on my nerves.",
+  "choices": {
+    "choice1": "You are dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"92": {
+  "Title": "You walk around the tower, kicking the base to disrespect it as you pass. After a couple steps you fall over, no wait, a big stone object hits you down. It’s the tower, the tower has fallen on top of you. That kick really did it in huh?",
+  "Description": "Your legs must be really strong",
+  "choices": {
+    "choice1": "You are quite dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"93": {
+  "Title": "You stab yourself in the chest with the key, you fall over, bleeding out.",
+  "Description": "Notably not the key to your heart",
+  "choices": {
+    "choice1": "You die"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"94": {
+  "Title": "You decide to swim deeper into the sand. You quickly that there is no bottom. Ya die.",
+  "Description": "Why would you even...",
+  "choices": {
+    "choice1": "ha"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"95": {
+  "Title": "You climb out, it’s not graceful, but you are out. It is only when your out that you realize that you dropped the key. This has totaled to be waste of time, congrats.",
+  "Description": "How clumsy does it get",
+  "choices": {
+    "choice1": "Try to get the key back",
+    "choice2": "Be depressed",
+    "choice3": "Walk"
+  },
+  "choicelinks": {
+    "choice1": "97",
+    "choice2": "96",
+    "choice3": "8"
+  }
+},
+
+"96": {
+  "Title": "Congrats",
+  "Description": "Congrats",
+  "choices": {
+    "choice1": "Congrats"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"97": {
+  "Title": "In attempts to find the key, you find that quite a lot of time has gone by, sunburns paint your body, the pain is awful. You now see and have the key. It’s rather hot now. In fact, it feel so hot that it almost feels deformed.",
+  "Description": "In case you're wondering, that means the key is unuseable",
+  "choices": {
+    "choice1": "Walk around"
+  },
+  "choicelinks": {
+    "choice1": "8"
+  }
+},
+
+"98": {
+  "Title": "You sit there, your not even sure why anymore, but you sit nevertheless. Waiting. Waiting. Waiting still. It feels like it’s been days, the sun still boiling your blood. You now have a rather gnarly sunburn. Congrats",
+  "Description": "Was this really a good idea?",
+  "choices": {
+    "choice1": "Finally walk around",
+    "choice2": "Wait longer"
+  },
+  "choicelinks": {
+    "choice1": "103",
+    "choice2": "99"
+  }
+},
+
+"99": {
+  "Title": "You, continue… To deprave yourself, even though the sun is quite literally cooking you. Hours more pass, the sun has fallen down, it is night. The cold is a terrible contrast, it is quite unpleasant. But at least your not being cooked alive anymore",
+  "Description": "Are... Are you okay?",
+  "choices": {
+    "choice1": "Try to walk",
+    "choice2": "Continue to wait"
+  },
+  "choicelinks": {
+    "choice1": "101",
+    "choice2": "100"
+  }
+},
+
+"100": {
+  "Title": "Why are you still waiting? What’s the point? Oh whatever, you wait more and the sun goes back up, back down, back up, and back down again. Three days you have waited. You don’t want to wait anymore.",
+  "Description": "Wait, is he trying to tell you he doesn't want you to wait any more? Seems kinda selfish to me.",
+  "choices": {
+    "choice1": "Try to walk",
+    "choice2": "Wait"
+  },
+  "choicelinks": {
+    "choice1": "101",
+    "choice2": "102"
+  }
+},
+
+"101": {
+  "Title": "You try to stand up, but all you can do is sit, your legs have gone weak, your mind frail. You are doomed to die here, with no energy left you lie there and eventually the time comes and you die.",
+  "Description": "I really should've expected this",
+  "choices": {
+    "choice1": "rest in peace"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"102": {
+  "Title": "It’s all sand. It’s always been sand. You’ve lost your mind, you haven’t slept in three days, you haven’t walked in three days, you haven’t been in three days. You die with the pain of a thousand sunburns and dehydration, malnutrition, and lack of sleep. If I didn’t know any better, I’d be thinking your a coder.",
+  "Description": "Man, it's always hard having to hear someone like that in the same body. I'm sure you agree.",
+  "choices": {
+    "choice1": "You are very very dead" 
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"103": {
+  "Title": "You, finally, decide to start walking. It isn’t long before the sun, quite literally, cooks you alive. The pain you feel is unmatched. But, you can see, not far in the distance, an oasis, water. There’s water!",
+  "Description": "Better late than never right?",
+  "choices": {
+    "choice1": "Go for the water!",
+    "choice2": "March onward away from the water",
+    "choice3": "Succumb to your pain"
+  },
+  "choicelinks": {
+    "choice1": "106",
+    "choice2": "105",
+    "choice3": "104"
+  }
+},
+
+"104": {
+  "Title": "Wow, just accepting your fate, letting pain win? Disappointing. Get out of here, coward.",
+  "Description": "You truly just gave up? Why are you of all people the leader here? We should overthrow you!",
+  "choices": {
+    "choice1": "get"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"105": {
+  "Title": "You die to dehydration after a short walk.",
+  "Description": "That was quite sad.",
+  "choices": {
+    "choice1": "ha"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"106": {
+  "Title": "The water! So fine. But wait, it’s so dry. It’s almost like it’s just sand. It is just sand. It was a mirage. You succumb to your agony, and die. Perhaps waiting for hours on end was a bad idea.",
+  "Description": "Well I suppose you get a free reset.",
+  "choices": {
+    "choice1": "You are very dead"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"107": {
+  "Title": "You finally reach the end, the ladder is on your right. You’ve made it to the fifth floor. ",
+  "Description": "Something about this feels final",
+  "choices": {
+    "choice1": "Nowhere to go but up"
+  },
+  "choicelinks": {
+    "choice1": "1-8"
+  }
+},
+
+"108": {
+  "Title": "The room you enter is large, something sits in the middle, it’s rather big, you feel as you shouldn’t be messing around.",
+  "Description": "Woah, what is that thing, it's huge. Not to mention scary.",
+  "choices": {
+    "choice1": "Sneak around the thing",
+    "choice2": "Investigate the thing",
+    "choice3": "Run up and kick the thing",
+    "choice4": "Sit where you are, guage the situation"
+  },
+  "choicelinks": {
+    "choice1": "112",
+    "choice2": "111",
+    "choice3": "110",
+    "choice4": "109"
+  }
+},
+
+"109": {
+  "Title": "So basically you are in a room, and there’s a beast in the center of the room. It’s just a normal encounter, good luck.",
+  "Description": "Did you really need that? The narrator already did that literally last prompt",
+  "choices": {
+    "choice1": "Return"
+  },
+  "choicelinks": {
+    "choice1": "108"
+  }
+},
+
+"110": {
+  "Title": "You run up and try to kick the beast, you don’t even get halfway before you trip and fall. The beast doesn’t even look behind it.",
+  "Description": "Did you even try? Man, I wish I was a part of someone who is competent.",
+  "choices": {
+    "choice1": "That was disappointed"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"111": {
+  "Title": "You walk up to the beast, you lean in just a little bit before it turns around and rips off your face.",
+  "Description": "You didn't think it would move, did ya?",
+  "choices": {
+    "choice1": "Should've been more careful"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"112": {
+  "Title": "You are not stealthy, the thing wakes up, stares at you. It looms over you as it stands, it’s figure is similar to a human, but much bigger, it’s head with fur and fluff, the body covered with black-ish red ink of sorts. He engages you in combat.",
+  "Description": "Something tells me there's no way out of a fight here.",
+  "choices": {
+    "choice1": "Try to predict and block him",
+    "choice2": "Dodge him when he attacks",
+    "choice3": "Attack before he can"
+  },
+  "choicelinks": {
+    "choice1": "125",
+    "choice2": "113",
+    "choice3": "126"
+  }
+},
+
+"113": {
+  "Title": "You duck beneath him after he throws a punch, you have an opening.",
+  "Description": "I would think this through if I were you.",
+  "choices": {
+    "choice1": "Punch",
+    "choice2": "Kick",
+    "choice3": "Prepare for a second dodge",
+    "choice4": "Try to talk to it"
+  }
+},
+
+"114": {
+  "Title": "You dodge, feeling confident in your abilities, until you realized the creature pulled a feint, saving the real blow for now. You are punched directly in the face, your skull is instantly shattered.",
+  "Description": "Hey, it's alright, no one could have predicted that you'd do the same move twice in a row.",
+  "choices": {
+    "choice1": "Should've dodged"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"115": {
+  "Title": "After some panicked talking the beast stops, looking at you, curiously. You find it was more curious on how you can make sounds, this is noticeable from how it then ate you.",
+  "Description": "I thought that would've worked for sure",
+  "choices": {
+    "choice1": "You're not you when you're hungry"
+  },
+  "choicelinks": {
+    "choice1": "1"
+  }
+},
+
+"116": {
+  "Title": "The strongest kick you can muster goes into it’s shin. It cries in pain, falling back a little.",
+  "Description": "Nice kick man.",
+  "choices": {
+    "choice1": "Rush forth",
+    "choice2": "Let it recover",
+    "choice3": "Feint a rush attack"
+  },
+  "choicelinks": {
+    "choice1": "123",
+    "choice2": "122",
+    "choice3": "117"
+  }
+}
+
 }
